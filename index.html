@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <title> Minha página</title>
+
+    <meta charset="UTF-8"/>
+
+    <meta name="description" content="Texto descritivo da página Web"/>
+
+    <meta name="author" content="EU"  />
+
+    <meta name="viewport" content="width=devide=width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+    <header>
+        
+    </header>
+
+    <main role="main">
+
+        
+        <!--inserção das minhas imagens no site da promoção-->
+        <img src="imagem_black_friday.jpg" alt="" width="180" height="550" align="right" />
+
+        <img src="imagem_black_friday.jpg" alt="" width="180" height="550" align="left" />
+
+        <!--texto introdutório do site-->
+        <h2 align="center">MegaEletro Saldão</h2>
+
+        <p align="center"> Bem vindo ao site do saldão de eletrodomésticos da MegaEletro Saldão. Se cadastre nos campos abaixo para receber nossas promoções. 
+            Contamos com sua presença nas nossas lojas e agradecemos pelo seu interesse!</p>
+
+        <!--criação do formulário para cadastramento na promoção-->
+        <form action="#" method="POST">
+
+            <fieldset>
+                <label for="campo1">Nome</label>
+                <input type="text" name="nome" id="campo1" />
+            </fieldset>
+
+            <fieldset>
+                <label for="campo2">Sobrenome</label>
+                <input type="text" name="sobrenome" id="campo2"/>   
+            </fieldset>
+
+            <fieldset>
+                <label for="campo3">E-mail</label>
+                <input type="email" name="email" id="campo3" />
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais das seguintes linhas de eletrodomésticos você gostaria de receber atualizações?</legend>
+
+                <input type="checkbox" name="linha1" value="1" />
+                <label>Geladeiras</label>
+
+                <input type="checkbox" name="linha2" value="2" />
+                <label>Fogões</label>
+                
+                <input type="checkbox" name="linha3" value="3" />
+                <label>Microondas</label>
+
+                <input type="checkbox" name="linha4" value="4" />
+                <label>Máquinas de lavar roupa</label>
+
+            </fieldset>
+
+            <input type="submit" value="Enviar"/>
+
+        </form>
+
+
+    <script type="text/javascript">
+    
+        var pieceoftext = document.getElementById("nomedaIDdealgumtextoemparticular");
+
+        pieceoftext.style.color = "green";
+    
+    </script>
+    
+
+</main>
+
+</body>
+</html>
